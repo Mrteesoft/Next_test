@@ -199,9 +199,9 @@ body {
 .main {
   position: relative;
   z-index: 1;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 5rem 2rem 4rem;
+  padding: 4rem 1.75rem 3.5rem;
 }
 
 .hero {
@@ -242,14 +242,14 @@ body {
 /* Premium card design with images */
 .cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
 }
 
 .card {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
-  border-radius: 16px;
+  border-radius: 14px;
   overflow: hidden;
   display: flex;
   flex-direction: column;

@@ -85,9 +85,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="footer">
-        <p className="footer__text">Visual alignment preview. No backend connected.</p>
-      </footer>
+      <footer className="footer" />
     </>
   )
 }
