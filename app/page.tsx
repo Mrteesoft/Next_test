@@ -62,12 +62,11 @@ export default function Home() {
             <article key={mode.title} className="card">
               <div className="card__image-wrapper">
                 <img src={mode.image || "/placeholder.svg"} alt={mode.title} className="card__image" />
-                <div className="card__image-overlay" />
-              </div>
-              <div className="card__content">
-                <span className="card__index">0{index + 1}</span>
-                <h2 className="card__title">{mode.title}</h2>
-                <p className="card__description">{mode.description}</p>
+              <div className="card__image-overlay" />
+            </div>
+            <div className="card__content">
+              <h2 className="card__title">{mode.title}</h2>
+              <p className="card__description">{mode.description}</p>
                 <button className="card__button">
                   <span>Select Mode</span>
                   <svg

@@ -292,14 +292,6 @@ body {
   flex-grow: 1;
 }
 
-.card__index {
-  font-size: 0.7rem;
-  font-weight: 600;
-  color: var(--accent);
-  letter-spacing: 0.1em;
-  margin-bottom: 0.75rem;
-}
-
 .card__title {
   font-size: 1.25rem;
   font-weight: 600;
