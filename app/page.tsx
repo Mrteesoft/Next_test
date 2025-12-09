@@ -49,7 +49,6 @@ export default function Home() {
 
       <main className="main">
         <div className="hero">
-          <span className="hero__badge">Beta Access</span>
           <h1 className="hero__title">Choose Your Generation Mode</h1>
           <p className="hero__subtitle">
             Select the rendering approach that fits your creative workflow. Each mode is optimized for different use
